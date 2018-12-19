@@ -15,7 +15,7 @@
     "test:client": "jest --config tests/client.jest.json --forceExit",
     "test:client:coverage": "jest --config tests/client.jest.json --coverage --forceExit",
     "test-coverage": "npm run test:client:coverage",
-    "updateDocAssets": "cp ./dist/vue-carousel.min.js ./docs/themes/vue/source/js/"
+    "updateDocAssets": "copy dist\\vue-carousel.min.js docs\\themes\\vue\\source\\js\\"
   },
   "repository": {
     "type": "git",
