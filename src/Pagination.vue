@@ -71,35 +71,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.VueCarousel-pagination {
-  width: 100%;
-  text-align: center;
-}
-
-.VueCarousel-dot-container {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.VueCarousel-dot {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.VueCarousel-dot-button {
-  appearance: none;
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  border-radius: 100%;
-  outline: none;
-  cursor: pointer;
-}
-
-.VueCarousel-dot-button:focus {
-  outline: 1px solid lightblue;
-}
-</style>
